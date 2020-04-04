@@ -2,7 +2,7 @@ body {
   
 }
 
-ul {
+#contenidorMenu ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -10,7 +10,7 @@ ul {
   background-color: #f1f1f1;
 }
 
-li a {
+#contenidorMenu li a {
   display: block;
   color: #000;
   padding: 8px 16px;
@@ -18,16 +18,25 @@ li a {
 }
 
 /* Change the link color on hover */
-li a:hover {
+#contenidorMenu li a:hover {
   background-color: #555;
   color: white;
 }
 
 #contenidoPrincipal{
-	background-color:blue;
+	height:100%;
+	padding-left: 70px;
+	float:left;
 }
 
 #contenidorMenu{
-	background-color:red;
+	height:100%;
 	float:left;
+	
+}
+
+td{
+	padding-right:70px;
+	padding-bottom:70px;
+	align:center;
 }

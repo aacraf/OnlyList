@@ -4,4 +4,4 @@ from django.shortcuts import render, HttpResponse
 # Create your views here.
 
 def index(request):
-    return render(request, 'onlylist/contenido.html')
+    return render(request, 'onlylist/index.html')

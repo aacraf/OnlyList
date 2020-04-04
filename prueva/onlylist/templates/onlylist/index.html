@@ -1,3 +1,5 @@
+{%load static%}
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -7,7 +9,7 @@
     <h1>OnlyList</h1>
     <!--Boostrap 4-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-	<link rel="stylesheet" href="estil/estil.css" >
+    <link rel="stylesheet" type = "text/css" href="{% static 'onlylist/estil.css'%}" >
   </head>
   <body>
 	<div id="contenidorMenu">
@@ -35,8 +37,8 @@
 	<div id="contenidoPrincipal">
 		<h2>Home</h2></br>
 		<h4>Select a category</h4> </br>
-
-		<img style="rotate: 180deg" src="onlylist/flecha.gif" height="100" width="100"/></br>
+    <!--{%load static%}-->
+		<img style="rotate: 180deg" src="{% static 'onlylist/images/flecha.gif'%}" height="100" width="100"/></br>
 	</div>
   </body>
 </html>

@@ -13,7 +13,7 @@
 	<div id="contenidorMenu">
 		<ul>
 		  <li class="nav-item">
-			<a class="nav-link active" href="index.html">Home</a>
+			<a class="nav-link" href="index.html">Home</a>
 		  </li>
 		  <li class="nav-item">
 			<a class="nav-link" href="contenido.html?about=Series">Series</a>
@@ -28,15 +28,25 @@
 			<a class="nav-link" href="contenido.html?about=Anime">Anime</a>
 		  </li>
 		  <li class="nav-item">
-			<a class="nav-link" href="profile.html">Perfil</a>
+			<a class="nav-link active" href="profile.html">Perfil</a>
 			</li>
 		</ul>
 	</div>
 	<div id="contenidoPrincipal">
-		<h2>Home</h2></br>
-		<h4>Select a category</h4> </br>
+		<h2>List of Series</h2>
 		
-		<img style="rotate: 180deg" src="flecha.gif" height="100" width="100"/></br>
+		<form action="/action_page.php">
+			<label for="fname">Name:</label>
+			  <input type="text" id="fname" name="fname" value="Fulanito" >
+			<label for="fname" style="margin-left:50px;">Birthday:</label>
+			<input type="date" id="fbdate" name="fbdate" style="margin-bottom:20px;"><br>
+			
+			<label for="fdesc" style="margin-bottom:20px;">Description:</label>
+			  <textarea name="fdesc" id="fdesc"></textarea><br>
+			
+			<input type="submit" value="Submit">
+		</form> 
+		
 	</div>
   </body>
 </html>

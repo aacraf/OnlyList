@@ -1,0 +1,42 @@
+body {
+  
+}
+
+#contenidorMenu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+}
+
+#contenidorMenu li a {
+  display: block;
+  color: #000;
+  padding: 15px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+#contenidorMenu li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+#contenidoPrincipal{
+	height:100%;
+	padding-left: 70px;
+	float:left;
+}
+
+#contenidorMenu{
+	height:100%;
+	float:left;
+	
+}
+
+td{
+	padding-right:70px;
+	padding-bottom:70px;
+	align:center;
+}

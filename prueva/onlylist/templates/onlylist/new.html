@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+	
+    <title>OnlyList</title>
+    <h1>OnlyList</h1>
+    <!--Boostrap 4-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet" href="estil/estil.css" >
+  </head>
+  <body>
+	<div id="contenidorMenu">
+		<ul>
+		  <li class="nav-item">
+			<a class="nav-link" href="index.html">Home</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link active" href="contenido.html?about=Series">Series</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" href="contenido.html?about=Movies">Movies</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" href="contenido.html?about=Books">Books</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" href="contenido.html?about=Anime">Anime</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" href="profile.html">Perfil</a>
+			</li>
+		</ul>
+	</div>
+	<div id="contenidoPrincipal">
+		<h2>New Serie</h2>
+		
+		<form action="/action_page.php">
+		  <label for="fname">Name:</label>
+		  <input type="text" id="fname" name="fname">
+		  <label for="fgenre" style="margin-left:50px;">Genre:</label>
+		  <select id="Genre" name="fgenre">
+			  <option value="volvo">Terror</option>
+			  <option value="saab">Action</option>
+			  <option value="fiat">Drama</option>
+			  <option value="audi">Comedy</option>
+			</select><br>
+			
+			<label for="myfile" style="margin-top:20px;margin-bottom:20px;">Select a image:</label>
+			<input type="file" id="myfile" name="myfile"><br>
+		  
+		  <label for="fyear">Year:</label>
+		  <input type="number" id="fyear" name="fyear">
+		  <label for="fyear" style="margin-left:50px;">Mark:</label>
+		  <input type="number" id="fyear" name="fyear" style="margin-bottom:20px;"><br>
+		  
+		  <label for="fcomment" style="margin-bottom:20px;">Opinion:</label>
+		  <textarea name="comment" id="fcomment"></textarea><br>
+		  
+		  
+		  <input type="submit" value="Submit">
+		</form> 
+		
+	</div>
+  </body>
+</html>

@@ -1,3 +1,5 @@
+{%load static%}
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -7,7 +9,7 @@
     <h1>OnlyList</h1>
     <!--Boostrap 4-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-	<link rel="stylesheet" href="estil/estil.css" >
+    <link rel="stylesheet" type = "text/css" href="{% static 'onlylist/estil.css'%}" >
   </head>
   <body>
 	<div id="contenidorMenu">
@@ -35,60 +37,60 @@
 	<div id="contenidoPrincipal">
 		<h2>List of Series</h2>
 		<a type="button" class="btn btn-default" aria-label="Left Align" style="margin-bottom:10px;" href="new.html?new=Series">
-			<img src="add.png" height="50" width="60"/>Add New
+			<img src="{% static 'onlylist/images/add.png'%}" height="50" width="60"/>Add New
 		</a>
 		<table>
 			<tr>
 				<td>
 					<a href="#">
-					<img style="align:right" src="noimg.jpg" height="100" width="100"/></br>
+					<img style="align:right" src="{% static 'onlylist/images/noimg.jpg'%}" height="100" width="100"/></br>
 					NombreSerie</a>
 				</td>
 				<td>
 					<a href="#">
-					<img style="align:right" src="noimg.jpg" height="100" width="100"/></br>
+					<img style="align:right" src="{% static 'onlylist/images/noimg.jpg'%}" height="100" width="100"/></br>
 					NombreSerie</a>
 				</td>
 				<td>
 					<a href="#">
-					<img style="align:right" src="noimg.jpg" height="100" width="100"/></br>
+					<img style="align:right" src="{% static 'onlylist/images/noimg.jpg'%}" height="100" width="100"/></br>
 					NombreSerie</a>
 				</td>
 				<td>
 					<a href="#">
-					<img style="align:right" src="noimg.jpg" height="100" width="100"/></br>
+					<img style="align:right" src="{% static 'onlylist/images/noimg.jpg'%}" height="100" width="100"/></br>
 					NombreSerie</a>
 				</td>
 				<td>
 					<a href="#">
-					<img style="align:right" src="noimg.jpg" height="100" width="100"/></br>
+					<img style="align:right" src="{% static 'onlylist/images/noimg.jpg'%}" height="100" width="100"/></br>
 					NombreSerie</a>
 				</td>
 			</tr>
 			<tr>
 				<td>
 					<a href="#">
-					<img style="align:right" src="noimg.jpg" height="100" width="100"/></br>
+					<img style="align:right" src="{% static 'onlylist/images/noimg.jpg'%}" height="100" width="100"/></br>
 					NombreSerie</a>
 				</td>
 				<td>
 					<a href="#">
-					<img src="noimg.jpg" height="100" width="100"/></br>
+					<img src="{% static 'onlylist/images/noimg.jpg'%}" height="100" width="100"/></br>
 					NombreSerie</a>
 				</td>
 				<td>
 					<a href="#">
-					<img src="noimg.jpg" height="100" width="100"/></br>
+					<img src="{% static 'onlylist/images/noimg.jpg'%}" height="100" width="100"/></br>
 					NombreSerie</a>
 				</td>
 				<td>
 					<a href="#">
-					<img style="align:right" src="noimg.jpg" height="100" width="100"/></br>
+					<img style="align:right" src="{% static 'onlylist/images/noimg.jpg'%}" height="100" width="100"/></br>
 					NombreSerie</a>
 				</td>
 				<td>
 					<a href="#">
-					<img style="align:right" src="noimg.jpg" height="100" width="100"/></br>
+					<img style="align:right" src="{% static 'onlylist/images/noimg.jpg'%}" height="100" width="100"/></br>
 					NombreSerie</a>
 				</td>
 			</tr>

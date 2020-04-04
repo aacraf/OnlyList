@@ -3,5 +3,11 @@ from django.shortcuts import render, HttpResponse
 
 # Create your views here.
 
-def index(request):
-    return render(request, 'onlylist/index.html')
+def home(request):
+    return render(request, 'onlylist/home.html')
+
+def contenido(request):
+    return render(request, 'onlylist/contenido.html')
+
+def profile(request):
+    return render(request, 'onlylist/profile.html')

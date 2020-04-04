@@ -18,7 +18,8 @@ from django.urls import include,path
 
 from django.http import HttpResponse
 
-
+def home(request):
+    return
 
 urlpatterns = [
     path('onlylist/',include('onlylist.urls')),

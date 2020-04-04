@@ -1,4 +1,4 @@
 from django.http import HttpResponse
 
-def home(request):
-    return HttpResponse("Prueba");
+def home():
+    return render('index.html')
